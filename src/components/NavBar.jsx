@@ -40,7 +40,7 @@ function NavBar() {
           <button className=" md:hidden bg-transparent text-black px-8 py-3 mb-4">
             Sign In
           </button>
-          <button className="md:hidden px-8 py-3">Sign Up</button>
+          <button className="md:hidden px-8 py-3 mb-3">Sign Up</button>
         </div>
       </ul>
     </div>

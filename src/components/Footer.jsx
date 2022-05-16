@@ -10,8 +10,8 @@ import {
 
 function Footer() {
   return (
-    <div className="width-full bg-gray-900">
-      <div className="grid md:grid-cols-5 border-b-2 border-gray-500">
+    <div className=" bg-gray-900 mt-[300px] md:mt-64">
+      <div className="grid sm:grid-cols-5 border-b-2 border-gray-500">
         <div className="flex flex-col text-left my-8 px-8 ">
           <div>
             <p className="text-white uppercase font-bold text-lg"> Solutions </p>
@@ -58,7 +58,7 @@ function Footer() {
             <p className=" text-white text-sm mt-2 font-normal">Terms</p>
           </div>
         </div>
-        <div className="flex flex-col justify-center text-left my-8 pr-2">
+        <div className="flex flex-col justify-center text-left my-8">
           <div>
             <p className="text-white uppercase font-bold"> Subscribe to Our News Letter </p>
           </div>
@@ -67,16 +67,16 @@ function Footer() {
           </div>
           <div className="">
             <input type="email" placeholder="Enter your Email" className="border rounded-md border-slate-500 mr-2"/>
-            <button className=" hover:bg-indigo-600 hover:text-white py-1 px-2"> Subscribe </button>
+            <button className=" hover:bg-indigo-600 hover:text-white py-1/2 px-1"> Subscribe </button>
           </div>
         </div>
       </div>
-      <div className="flex justify-between max-w-[1240px] py-3 mx-auto">
+      <div className="grid grid-cols-2 py-3">
         <div>
           <h6 className="text-gray-600 font-bold">2022 Workflow, LLC. All rights reserved.</h6>
         </div>
-        <div className="flex justify-between">
-          <FaFacebook className="w-16 text-slate-500"/>
+        <div className="flex justify-center ml-20 md:pl-52">
+          <FaFacebook className="w-10 text-slate-500"/>
           <FaGithub className="w-16 text-slate-500"/>
           <FaInstagram className="w-16 text-slate-500"/>
           <FaTwitter className="w-16 text-slate-500"/>
